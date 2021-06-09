@@ -1,18 +1,19 @@
-﻿using System;
 using NUnit.Framework;
 
-namespace UnitTest
+namespace TestProject1
 {
     [TestFixture]
-    public class Class1
+    public class Tests
     {
         [SetUp]
         public void Setup()
         {
         }
+
         [Test]
-        public void Method1() {
-            Assert.Fail();
+        public void Test1()
+        {
+            Assert.Pass();
         }
     }
 }
